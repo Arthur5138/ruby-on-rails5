@@ -16,8 +16,8 @@
 # Uncomment the following lines to make the configuration take effect.
 
 PreCommit:
-  RuboCop:
-    enabled: true
+  #RuboCop:
+    #enabled: true
   AuthorName:
     enabled: false
 #    on_warn: fail # Treat all warnings as failures
