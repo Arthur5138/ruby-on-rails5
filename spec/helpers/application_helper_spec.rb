@@ -1,8 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe ApplicationHelper, type: :helper do
-  describe '#page_title' do
-    context '@titleが指定されてない場合' do
+  describe '#page_title' do #テストするメソッドをかく。
+    context '@titleが指定されてない場合' do #条件を分けるときに使うことが多い。
       it 'デフォルトタイトルが返されること' do
         stub_const('ApplicationHelper::APP_NAME', 'Rails Sample APP')
         expect(helper.page_title).to eq('Rails Sample APP')

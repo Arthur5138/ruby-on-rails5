@@ -7,6 +7,7 @@ ruby '2.5.1'
 gem 'rails', '~> 5.2.2'
 #gem 'therubyracer', platforms: :ruby, github: 'cowboyd/therubyracer'
 gem 'mini_racer'
+gem 'devise'
 
 #Database
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
@@ -16,13 +17,13 @@ gem 'puma', '~> 3.11'
 
 # View
 gem 'bootstrap'
-gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
+gem 'sass-rails'
+gem 'uglifier'
 #gem 'jbuilder', '~> 2.5'
-gem 'bootsnap', '>= 1.1.0', require: false
+gem 'bootsnap'
 gem 'jquery-rails'
 gem 'tether-rails'
-gem 'popper_js', '~> 1.11.1'
+gem 'popper_js'
 gem 'turbolinks'
 
 group :development, :test do
@@ -33,10 +34,10 @@ group :development, :test do
 end
 
 group :development do
-  gem 'web-console', '>= 3.3.0'
-  gem 'listen', '>= 3.0.5', '< 3.2'
+  gem 'web-console'
+  gem 'listen'
   gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring-watcher-listen'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'pry-byebug'
