@@ -8,6 +8,7 @@ gem 'rails', '~> 5.2.2'
 #gem 'therubyracer', platforms: :ruby, github: 'cowboyd/therubyracer'
 gem 'mini_racer'
 gem 'devise'
+gem 'config' #機密情報の管理
 
 #Database
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
