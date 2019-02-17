@@ -18,6 +18,10 @@
 #  created_at             :datetime         not null
 #  updated_at             :datetime         not null
 #  name                   :string(255)
+#  avatar_file_name       :string(255)
+#  avatar_content_type    :string(255)
+#  avatar_file_size       :bigint(8)
+#  avatar_updated_at      :datetime
 #
 
 FactoryBot.define do

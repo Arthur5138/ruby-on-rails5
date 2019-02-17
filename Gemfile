@@ -11,6 +11,7 @@ gem 'devise'
 gem 'config' #機密情報の管理
 gem 'sidekiq'
 gem 'sinatra'
+gem 'paperclip'
 
 #Database
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
@@ -48,6 +49,7 @@ group :development do
   gem 'rubocop'
   gem 'annotate'
   gem 'overcommit'
+  gem 'rb-readline'
 end
 
 
