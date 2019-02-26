@@ -29,12 +29,14 @@ gem 'jquery-rails'
 gem 'tether-rails'
 gem 'popper_js'
 gem 'turbolinks'
+gem 'kaminari'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails'
   gem 'factory_bot_rails'
   gem 'database_cleaner'
+  gem 'faker'
 end
 
 group :development do

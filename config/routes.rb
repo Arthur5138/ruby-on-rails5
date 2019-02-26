@@ -33,9 +33,10 @@
 require 'sidekiq/web'
 
 Rails.application.routes.draw do
+  resources :posts, only: [:create]
   devise_for :users
   root 'home#index'
   mount Sidekiq::Web, at: '/sidekiq'
 
-  
+
 end
