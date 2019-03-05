@@ -23,9 +23,12 @@
 #  avatar_file_size       :bigint(8)
 #  avatar_updated_at      :datetime
 #  posts_count            :integer          default(0), not null
+#  role                   :integer          default(0), not null
 #
 
 class User < ApplicationRecord
+  enum role: { user: 0, admin: 1} #管理者権限 1がadmin
+
   has_many :posts, inverse_of: :user
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable

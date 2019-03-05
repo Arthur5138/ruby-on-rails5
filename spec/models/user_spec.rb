@@ -23,6 +23,7 @@
 #  avatar_file_size       :bigint(8)
 #  avatar_updated_at      :datetime
 #  posts_count            :integer          default(0), not null
+#  role                   :integer          default(0), not null
 #
 
 require 'rails_helper'

@@ -13,6 +13,7 @@ gem 'sidekiq'
 gem 'sinatra'
 gem 'paperclip'
 gem 'counter_culture'
+gem 'activeadmin'#管理者画面の管理
 
 #Database
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
