@@ -22,6 +22,7 @@
 #  avatar_content_type    :string(255)
 #  avatar_file_size       :bigint(8)
 #  avatar_updated_at      :datetime
+#  posts_count            :integer          default(0), not null
 #
 
 class User < ApplicationRecord
@@ -68,6 +69,10 @@ class User < ApplicationRecord
     { value: login.downcase }]
     ).first
 
+  end
+
+  def created_month
+    created_at.strftime('%Y年%m月')
   end
 
 end

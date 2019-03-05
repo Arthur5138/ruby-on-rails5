@@ -12,6 +12,7 @@ gem 'config' #機密情報の管理
 gem 'sidekiq'
 gem 'sinatra'
 gem 'paperclip'
+gem 'counter_culture'
 
 #Database
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'

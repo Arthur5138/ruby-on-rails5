@@ -22,6 +22,7 @@
 #  avatar_content_type    :string(255)
 #  avatar_file_size       :bigint(8)
 #  avatar_updated_at      :datetime
+#  posts_count            :integer          default(0), not null
 #
 
 FactoryBot.define do
